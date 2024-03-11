@@ -1,0 +1,75 @@
+body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.introduction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  height: 400px;
+}
+
+.introduction__avatar {
+  aspect-ratio: 1;
+  width: 120px;
+  background-color: rgb(225, 225, 225);
+  border-radius: 50%;
+}
+
+.introduction__text {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.projects__title {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+}
+
+.projects__list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  border: solid 1px rgb(231, 231, 231);
+  border-radius: 10px;
+}
+
+.projects__list-item > img {
+  width: 300px;
+}
+
+.projects__list-item > span {
+  font-size: 20px;
+  font-weight: 500;
+}
